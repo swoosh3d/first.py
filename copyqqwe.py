@@ -38,4 +38,5 @@ if command == "превью и сжатие":
     preview.save(SOURCE_DIR + "PREVIEW.jpeg")
     compressedimg = myimage.quantize(method=2)
     compressedimg.save(SOURCE_DIR + "COMPRESSED.jpeg")
+    #new string
     
